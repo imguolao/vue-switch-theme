@@ -6,7 +6,7 @@
 
 [![gitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imguolao/vue-switch-appearance/blob/main/LICENSE) 
 
-中文文档 | [English Documents](./README.md)
+简体中文 | [English](./README.md)
 
 ## Installation
 

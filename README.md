@@ -4,7 +4,7 @@ A simple, tiny vue component(or hook) to help you easily implement dark mode.
 
 [![gitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imguolao/vue-switch-appearance/blob/main/LICENSE) 
 
-English Documents | [中文文档](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md)
 
 ## Installation
 
