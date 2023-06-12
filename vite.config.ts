@@ -1,3 +1,4 @@
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -13,4 +14,9 @@ export default defineConfig({
       template: './playground/public/index.html',
     }),
   ],
+  resolve: {
+    alias: {
+      '@src/': resolve(__dirname, './src'),
+    },
+  },
 })
