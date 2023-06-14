@@ -64,6 +64,9 @@ devDependencies:
   vite:
     specifier: ^4.3.9
     version: 4.3.9(@types/node@20.2.5)
+  vite-plugin-css-injected-by-js:
+    specifier: ^3.1.1
+    version: 3.1.1(vite@4.3.9)
   vite-plugin-dts:
     specifier: ^2.3.0
     version: 2.3.0(@types/node@20.2.5)(vite@4.3.9)
@@ -5958,6 +5961,14 @@ packages:
   /validator@13.9.0:
     resolution: {integrity: sha512-B+dGG8U3fdtM0/aNK4/X8CXq/EcxU2WPrPEkJGslb47qyHsxmbggTWK0yEA4qnYVNF+nxNlN88o14hIcPmSIEA==}
     engines: {node: '>= 0.10'}
+    dev: true
+
+  /vite-plugin-css-injected-by-js@3.1.1(vite@4.3.9):
+    resolution: {integrity: sha512-mwrFvEEy0TuH8Ul0cb2HgjmNboQ/JnEFy+kHCWqAJph3ikMOiIuyYVdx0JO4nEIWJyzSnc4TTdmoTulsikvJEg==}
+    peerDependencies:
+      vite: '>2.0.0-0'
+    dependencies:
+      vite: 4.3.9(@types/node@20.2.5)
     dev: true
 
   /vite-plugin-dts@2.3.0(@types/node@20.2.5)(vite@4.3.9):
