@@ -21,7 +21,44 @@ pnpm add @guolao/vue-switch-theme
 
 ## Usage
 
-// todo description
+```vue
+<template>
+  <SwitchTheme />
+</template>
+
+<script setup>
+import SwitchTheme from '@guolao/vue-switch-theme'
+</script>
+```
+
+## Props & Events
+
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| mode | `'auto' \| 'dark' \| 'light'` | `'auto'` | appearance theme |
+| onChange | `(theme: 'auto' \| 'dark' \| 'light') => void` | `null` | emit after theme mode change |
+
+## hooks
+
+Customize your own theme switch component by `useTheme` hook.
+
+```vue
+<template>
+  <button 
+    class="theme-button"
+    @click="toggle">
+    mode: {{ theme }}
+  </button>
+</template>
+
+<script setup>
+import { onMounted } from 'vue'
+import { useTheme } from '@guolao/vue-switch-theme'
+
+const { toggle, setTheme, theme } = useTheme('theme-button')
+onMounted(() => setTheme('dark'))
+</script>
+```
 
 ## License
 
