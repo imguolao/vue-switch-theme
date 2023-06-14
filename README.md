@@ -1,8 +1,8 @@
-# vue-switch-appearance
+# vue-switch-theme
 
 A simple, tiny vue component(or hook) to help you easily implement dark mode.
 
-[![gitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imguolao/vue-switch-appearance/blob/main/LICENSE) 
+[![gitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/imguolao/vue-switch-theme/blob/main/LICENSE) 
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -10,13 +10,13 @@ English | [简体中文](./README.zh-CN.md)
 
 ```sh
 # npm
-npm i @guolao/vue-switch-appearance
+npm i @guolao/vue-switch-theme
 
 # yarn
-yarn add @guolao/vue-switch-appearance
+yarn add @guolao/vue-switch-theme
 
 # pnpm
-pnpm add @guolao/vue-switch-appearance
+pnpm add @guolao/vue-switch-theme
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "vue-switch-appearance",
+  "name": "vue-switch-theme",
   "version": "0.0.0",
   "description": "A simple, tiny vue component(hook) to help you easily implement dark mode.",
   "author": {
@@ -32,7 +32,7 @@
     "vue3"
   ],
   "files": [
-    "lib",
+    "dist",
     "README.zh-CN.md"
   ],
   "license": "MIT",
@@ -74,7 +74,8 @@
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0",
     "vite-plugin-html": "^3.2.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-eslint-parser": "^9.3.1"
   },
   "peerDependencies": {
     "vue": ">=3.0.0"

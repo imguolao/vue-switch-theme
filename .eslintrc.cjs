@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   env: {
     node: true,
+    browser: true,
   },
   parser: 'vue-eslint-parser',
   parserOptions: {
@@ -13,12 +14,18 @@ module.exports = {
       tsx: true,
     },
   },
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:vue/vue3-recommended', 'prettier'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:vue/vue3-recommended', 
+    'prettier',
+  ],
   rules: {
     'vue/no-unused-vars': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
     'eol-last': 'error',
     'comma-dangle': ['error', 'always-multiline'],
     'quotes': ['error', 'single'],
