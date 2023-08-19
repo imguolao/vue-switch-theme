@@ -1,3 +1,13 @@
+## 0.0.1 (2023-08-19)
+
+
+### Features
+
+* add switch theme component ([1b589ef](https://github.com/imguolao/vue-switch-appearance/commit/1b589efe64651dc0fb56b06ff6d49874acb23410))
+* injecting css into js ([b0cf752](https://github.com/imguolao/vue-switch-appearance/commit/b0cf752eefafe06cda33bb1447aa4b807a30c53a))
+
+
+
 ## [0.0.2](https://github.com/imguolao/monaco-vue/compare/v0.0.1...v0.0.2) (2022-05-21)
 
 

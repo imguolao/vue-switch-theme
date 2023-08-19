@@ -1,6 +1,6 @@
 {
   "name": "vue-switch-theme",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple, tiny vue component(hook) to help you easily implement dark mode.",
   "author": {
     "name": "guolao",
